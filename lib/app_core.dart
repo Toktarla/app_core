@@ -57,9 +57,6 @@ export 'src/network/models/result.dart';
 export 'src/network/models/request_operation.dart';
 export 'src/network/models/token_pair.dart';
 
-// Core assets
-export 'src/core/assets/generated/assets.gen.dart';
-export 'src/core/assets/generated/fonts.gen.dart';
 
 // L10n
 export 'src/l10n/localization.dart';
