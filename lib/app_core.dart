@@ -57,10 +57,6 @@ export 'src/network/models/result.dart';
 export 'src/network/models/request_operation.dart';
 export 'src/network/models/token_pair.dart';
 
-
-// L10n
-export 'src/l10n/localization.dart';
-
 // Models
 export 'src/models/app_theme.dart';
 
