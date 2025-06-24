@@ -1,0 +1,19 @@
+global_options:
+  freezed:
+    runs_before:
+      - json_serializable
+  json_serializable:
+    runs_before:
+      - retrofit_generator
+    options:
+      field_rename: snake
+
+targets:
+  $default:
+    builders:
+      flutter_gen_runner:
+        options:
+          output: lib/src/core/assets/generated
+          line_length: 120
+          integrations:
+            flutter_svg: true

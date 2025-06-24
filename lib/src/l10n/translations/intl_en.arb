@@ -1,0 +1,482 @@
+{
+  "@@locale": "en",
+  "@auth": {},
+  "clickHere": "click here",
+  "continueText": "Continue",
+  "enterSmsCodeSentToNumber": "Enter the SMS code we sent to the number",
+  "loginAndRegistration": "Login and Registration",
+  "noAccountRegisterService": "No account yet? Register your service - ",
+  "phoneNumber": "Phone Number",
+  "sendCodeAgain": "Send code again",
+  "sendCodeAgainInSeconds": "Send code again in 00:{seconds}",
+  "@sendCodeAgainInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "String",
+        "example": "59"
+      }
+    }
+  },
+  "smsCode": "SMS Code",
+  "@actions": {},
+  "add": "Add",
+  "apply": "Apply",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "done": "Done",
+  "edit": "Edit",
+  "exit": "Exit",
+  "hide": "Hide",
+  "reset": "Reset",
+  "retry": "Retry",
+  "save": "Save",
+  "search": "Search",
+  "select": "Select",
+  "selectAll": "Select all",
+  "unfold": "Unfold",
+  "@booking": {},
+  "addOnlineBooking": "Add online booking",
+  "addToQueue": "Add to queue",
+  "allowCameraAccess": "Allow camera access to continue",
+  "awaiting": "Awaiting",
+  "cashRegister": "Cash register",
+  "continueBooking": "Continue booking",
+  "editBooking": "Edit booking",
+  "history": "History",
+  "journal": "Journal",
+  "liveQueue": "Live queue",
+  "onlineBooking": "Online booking",
+  "onlineBookingCreated": "Online booking created successfully",
+  "orderAddedToQueue": "Order successfully added to queue",
+  "orderSuccessfullyUpdated": "Order successfully updated",
+  "queueBooking": "Queue booking",
+  "scanSuccessful": "Scan successful",
+  "scanned": "Scanned",
+  "selectDateTime": "Select date and time",
+  "selectedTime": "Selected time:",
+  "timeNotSelected": "Time not selected",
+  "toSelectAnotherTime": "To select another time,",
+  "@cars": {},
+  "addCar": "Add a car",
+  "car": "Car",
+  "carMakesAndModels": "Car makes and models",
+  "carServices": "Car services",
+  "editCar": "Edit car",
+  "enterLicensePlate": "Enter license plate",
+  "generation": "Generation",
+  "licensePlate": "License plate",
+  "make": "Make",
+  "model": "Model",
+  "selectCarMakeAndModel": "Select car make and model",
+  "selectGeneration": "Select generation",
+  "selectMake": "Select make",
+  "selectModel": "Select model",
+  "totalCars": "Cars: {totalCount}",
+  "@totalCars": {
+    "placeholders": {
+      "totalCount": {
+        "type": "int",
+        "example": "15"
+      }
+    }
+  },
+  "@clients": {},
+  "addClient": "Add client",
+  "client": "Client",
+  "clientFound": "Client found:",
+  "clientName": "Client name",
+  "clients": "Clients",
+  "editClient": "Edit client",
+  "noClientsYet": "No clients yet",
+  "totalClients": "Clients: {totalObjects}",
+  "@totalClients": {
+    "placeholders": {
+      "totalObjects": {
+        "type": "int",
+        "example": "100"
+      }
+    }
+  },
+  "@companies": {},
+  "addCompany": "Add a company",
+  "companyName": "Company name",
+  "editCompany": "Edit company",
+  "enterCompanyName": "Enter company name",
+  "legalCompanies": "Legal companies",
+  "legalEntity": "Legal entity",
+  "legalEntityShort": "Legal entity",
+  "@employees": {},
+  "addEmployee": "Add employee",
+  "addAtLeastOneEmployee": "To record clients in the journal, you need to add at least one washer employee. You can do this right now.",
+  "admin": "Administrator",
+  "administrator": "Administrator",
+  "any": "Any",
+  "carWasher": "Car washer",
+  "carWashers": "Car Washers",
+  "employee": "Employee",
+  "employeeListEmpty": "Employee list is empty",
+  "employeeName": "Employee name",
+  "employeePhoneNumber": "Employee phone number",
+  "employeeRole": "Employee role",
+  "editEmployee": "Edit employee",
+  "enterName": "Enter name",
+  "enterPhoneNumber": "Enter phone number",
+  "phoneNumberNotChangeable": "Phone number cannot be changed. To change the number, delete the employee and add again.",
+  "salaryRate": "Salary rate",
+  "selectEmployee": "Select employee",
+  "selectPercentage": "Select percentage",
+  "selectRole": "Select role",
+  "staff": "Staff",
+  "@errors": {},
+  "backToHome": "Back to home",
+  "badRequest": "Invalid request, please check your data and try again",
+  "connectionTimeout": "The server response time has expired",
+  "error": "Error",
+  "errorType": "Error Type: {error}",
+  "@errorType": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "initializationFailed": "Initialization Failed",
+  "internalServerError": "Please try again later, an internal error occurred",
+  "invalidRequestCheckData": "Invalid request, check your data and try again",
+  "noAvailableData": "No available data",
+  "noInternetConnection": "No internet connection",
+  "notFound": "Data not found",
+  "requestSuccess": "Request Success",
+  "serverResponseTimeExpired": "Server response time expired",
+  "serverUnavailableTryLater": "Try again later, the server is currently unavailable",
+  "somethingWentWrong": "Something went wrong",
+  "tooManyRequests": "Too many requests, please try again later",
+  "unauthorized": "Unauthorized",
+  "@forms": {},
+  "chooseTime": "Choose time",
+  "coordinates": "Coordinates",
+  "coordinatesCannotBeEmpty": "Coordinates cannot be empty",
+  "fillRequiredFields": "Fill in the required fields",
+  "invalidFormat": "Invalid format",
+  "requiredField": "Required field",
+  "saveChanges": "Save changes",
+  "@location": {},
+  "address": "Address",
+  "city": "City",
+  "enterAddress": "Enter address",
+  "link2GIS": "2GIS link",
+  "location": "Location",
+  "pointOnMap": "Point on map",
+  "selectCity": "Select city",
+  "specify2GISLink": "Specify 2GIS link",
+  "specifyYandexMapsLink": "Specify Yandex Maps link",
+  "yandexMapsLink": "Yandex Maps link",
+  "@payment": {},
+  "acceptPayment": "Accept payment",
+  "acceptPaymentQr": "Accept payment",
+  "addQr": "Add QR",
+  "addQrPayment": "Add QR payment",
+  "amount": "Amount",
+  "bankName": "Bank name",
+  "bonusInfo": "{inputAmount} ₸ for entry, {qrAmount} ₸ for QR booking",
+  "@bonusInfo": {
+    "placeholders": {
+      "inputAmount": {
+        "type": "int",
+        "example": "200"
+      },
+      "qrAmount": {
+        "type": "int",
+        "example": "500"
+      }
+    }
+  },
+  "calculate": "Calculate",
+  "calculator": "Calculator",
+  "cardNumber": "Card number",
+  "discount": "Discount",
+  "discountPercentage": "Discount: {discount}%",
+  "@discountPercentage": {
+    "placeholders": {
+      "discount": {
+        "type": "num",
+        "example": "10"
+      }
+    }
+  },
+  "editAmount": "Edit amount",
+  "emptyHere": "Empty here",
+  "enterAmountForWithdrawal": "Enter amount for withdrawal",
+  "enterBankName": "Enter bank name",
+  "enterCardNumber": "Enter card number",
+  "enterCorrectCardDetails": "Enter correct card details",
+  "expectReceiptWithin24Hours": "Expect receipt within 24 hours",
+  "incomeCalculator": "Income calculator",
+  "insufficientFundsForWithdrawal": "Insufficient funds for withdrawal",
+  "minWithdrawalAmount": "Minimum withdrawal amount — {amount} ₸",
+  "@minWithdrawalAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "5000"
+      }
+    }
+  },
+  "minWithdrawalAmountIs": "Minimum withdrawal amount is — {amount} ₸",
+  "@minWithdrawalAmountIs": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "5000"
+      }
+    }
+  },
+  "netIncome": "Net income",
+  "noQrPayments": "No QR payments",
+  "operationPerformed": "Operation performed",
+  "otherExpenses": "Other expenses",
+  "paid": "Paid",
+  "paidStatus": "Paid",
+  "payment": "Payment",
+  "paymentMethod": "Payment method",
+  "promotionalPrice": "Promotional price",
+  "qrPayment": "QR payment",
+  "qrPhoto": "QR photo",
+  "qrScanner": "QR scanner",
+  "revenueFromInner": "Revenue from inner",
+  "revenueFromOuter": "Revenue from outer",
+  "revenueFromQueue": "Revenue from queue",
+  "salary": "Salary",
+  "salaryExpenses": "Salary expenses",
+  "selectPaymentMethod": "Select payment method",
+  "sendRequest": "Send request",
+  "showToClientToAcceptPayment": "Show to client to accept payment",
+  "specifyAmountForWithdrawal": "Specify amount for withdrawal",
+  "total": "Total",
+  "totalExpenses": "Total expenses",
+  "totalRevenue": "Total revenue",
+  "withdrawFunds": "Withdraw funds",
+  "withdrawalOfFunds": "Withdrawal of funds",
+  "withdrawalRequest": "Withdrawal request",
+  "withdrawalRequestSentForAmount": "Withdrawal request sent for amount:",
+  "withdrawalRequestSentSuccessfully": "Withdrawal request successfully sent",
+  "yourBalance": "Your balance",
+  "@plurals": {},
+  "countCars": "{count, plural, one{{count} car} other{{count} cars}}",
+  "@countCars": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "itemCount": "{count, plural, one{{count} item} other{{count} items}}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "liveQueueCars": "{liveQueueCount, plural, one{{liveQueueCount} car in live queue} other{{liveQueueCount} cars in live queue}}",
+  "@liveQueueCars": {
+    "placeholders": {
+      "liveQueueCount": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "onlineBookingCars": "{onlineCount, plural, one{{onlineCount} car booked online} other{{onlineCount} cars booked online}}",
+  "@onlineBookingCars": {
+    "placeholders": {
+      "onlineCount": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "processCountCars": "{processCount, plural, one{{processCount} car in process} other{{processCount} cars in process}}",
+  "@processCountCars": {
+    "placeholders": {
+      "processCount": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "selectedGenerations": "{selectedGenerationsLength, plural, one{{selectedGenerationsLength} generation selected} other{{selectedGenerationsLength} generations selected}}",
+  "@selectedGenerations": {
+    "placeholders": {
+      "selectedGenerationsLength": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "waitingLiveQueueCars": "{liveQueueCount, plural, one{{liveQueueCount} car waiting (queue)} other{{liveQueueCount} cars waiting (queue)}}",
+  "@waitingLiveQueueCars": {
+    "placeholders": {
+      "liveQueueCount": {
+        "type": "int",
+        "example": "9"
+      }
+    }
+  },
+  "waitingOnlineBookingCars": "{onlineCount, plural, one{{onlineCount} car waiting (online)} other{{onlineCount} cars waiting (online)}}",
+  "@waitingOnlineBookingCars": {
+    "placeholders": {
+      "onlineCount": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "@reports": {},
+  "carCount": "Number of cars",
+  "carWashersStatistics": "Car washers statistics",
+  "downloadReport": "Download report",
+  "report": "Report",
+  "selectReportDate": "Select report date",
+  "sendReport": "Send report",
+  "totalOrders": "Total orders",
+  "washingStatistics": "Washing statistics",
+  "@services": {},
+  "addBody": "Add body",
+  "addService": "Add service",
+  "addServiceApplication": "Add service application",
+  "addServiceButton": "Add service",
+  "applicationSentForModeration": "Application sent for moderation",
+  "available": "Available",
+  "carWash": "Car wash",
+  "completed": "Completed",
+  "created": "New",
+  "deleteSelected": "Delete selected",
+  "description": "Description:",
+  "draft": "Draft",
+  "enterNameForService": "Enter service name",
+  "enterServiceDescription": "Enter service description",
+  "enterServiceName": "Enter service name",
+  "errorSendingApplicationForModeration": "Error sending application for moderation",
+  "fillFormToSendApplication": "Fill out the form to send an application for adding a car service. All applications are subject to verification before publication.",
+  "inProgress": "In process",
+  "mainPrice": "Main price",
+  "mainPriceDescription": "Main price - a single service cost for cars of this body type. Separate prices can be set for different generations and models.",
+  "noServicesForSelectedCar": "No available services for the selected car",
+  "oilChangePoint": "Oil change point",
+  "orderType": "Order type",
+  "selectAtLeastOneService": "Select at least one service",
+  "selectBodies": "Select bodies",
+  "selectServices": "Select services",
+  "selectServiceType": "Select service type",
+  "selectServiceTypePrompt": "Select service type",
+  "selectType": "Select type",
+  "sendForModeration": "Send for moderation",
+  "separatePrice": "Separate price",
+  "separatePriceDescription": "Separate price - the cost set specifically for the selected generation and car model",
+  "service": "Service",
+  "serviceDescription": "Service description",
+  "serviceName": "Service name",
+  "serviceOperationData": "Service Operation Data",
+  "services": "Services",
+  "servicesShort": "Services:",
+  "serviceType": "Service Type",
+  "offeringsAmount": "Service amount",
+  "@settings": {},
+  "kazakh": "Қазақша",
+  "language": "Language",
+  "russian": "Русский",
+  "settings": "Settings",
+  "@status": {},
+  "currentlyWashing": "Currently washing",
+  "empty": "Empty",
+  "loading": "Loading...",
+  "newUser": "New user",
+  "no": "No",
+  "notPaid": "Not paid",
+  "notSelected": "Not selected",
+  "notSpecified": "Not specified",
+  "status": "Status",
+  "successfully": "Successfully!",
+  "uniqueUser": "Unique user",
+  "unknown": "Unknown",
+  "yes": "Yes",
+  "@time": {},
+  "closingTimeFormat": "Closing time must be in hour:minute:second format",
+  "day": "Day",
+  "endTime": "End time",
+  "evening": "Evening",
+  "morning": "Morning",
+  "night": "Night",
+  "openingTimeBeforeClosingTime": "Opening time must be earlier than closing time",
+  "openingTimeFormat": "Opening time must be in hour:minute:second format",
+  "recordDate": "Record date",
+  "recordTime": "Record time",
+  "roundTheClock": "Round the clock",
+  "selectEndTime": "Select end time",
+  "selectStartTime": "Select start time",
+  "startTime": "Start time",
+  "workSchedule": "Work schedule",
+  "@ui": {},
+  "comingSoon": "Coming soon",
+  "confirmButton": "Confirm",
+  "filters": "Filters",
+  "name": "Name",
+  "nothingFound": "Nothing found",
+  "record": "Record",
+  "@validation": {},
+  "enterAmount": "Enter amount",
+  "numberOfBoxes": "Number of boxes",
+  "numberOfBoxesMustBeGreaterThanZero": "Number of boxes must be greater than zero",
+  "numberOfBoxesMustBeNumber": "Number of boxes must be a number",
+  "someFilesExceedMaxSize": "Some files exceed the maximum size of 10 MB",
+  "specifyNumberOfBoxes": "Specify the number of boxes",
+  "@washing": {},
+  "confirmCompleteWashing": "Are you sure you want to complete washing?",
+  "confirmDeleteRecord": "Are you sure you want to delete this record?",
+  "confirmStartWashing": "Are you sure you want to start washing?",
+  "completeWashing": "Complete washing",
+  "completeWashingPrompt": "To complete the wash, you must first pay for the order",
+  "deleteRecord": "Delete record",
+  "orderAlreadyScanned": "This order has already been scanned",
+  "orderCannotBeScanned": "This order cannot be scanned",
+  "orderInfo": "Order information",
+  "selectCarWasherPrompt": "Please select a car washer before starting the order",
+  "startWashing": "Start washing",
+  "@workspace": {},
+  "addConveniences": "Add convenience",
+  "addPhotos": "Add photos",
+  "cashRegisterMenu": "Cash register",
+  "conveniences": "Conveniences",
+  "doNotAcceptOrders": "Do not accept orders",
+  "mainInformation": "Main Information",
+  "notifications": "Notifications",
+  "notificationsMenu": "Notifications",
+  "organization": "Organization",
+  "organizationMenu": "Organization",
+  "photos": "Photos",
+  "qrPaymentHeader": "QR Payment",
+  "selectConveniences": "Select conveniences",
+  "techSupport": "Tech support",
+  "@account": {},
+  "call": "Call",
+  "comment": "Comment:",
+  "deleteAccount": "Delete account",
+  "deleteAccountConfirmation": "Are you sure you want to send a request to delete your account?",
+  "deleteAccountRequestSent": "Account deletion request has been sent. Please wait for confirmation.",
+  "deleteAccountTitle": "Delete account",
+  "logout": "Logout",
+  "reply": "Reply:",
+  "replyToReview": "Reply to review",
+  "replyToReviewAdded": "Reply to review added",
+  "respond": "Respond",
+  "reviews": "Reviews",
+  "reviewsAndRatings": "Reviews and ratings",
+  "thanksForReviewSeeYouAgain": "Thank you for your review! We look forward to seeing you again",
+  "writeOnWhatsApp": "Write on WhatsApp",
+  "yourReplyShowsServiceLevel": "Your reply will help show the level of service and attitude towards clients"
+}

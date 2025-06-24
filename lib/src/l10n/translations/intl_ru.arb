@@ -1,0 +1,482 @@
+{
+  "@@locale": "ru",
+  "@auth": {},
+  "clickHere": "нажмите здесь",
+  "continueText": "Продолжить",
+  "enterSmsCodeSentToNumber": "Введите код из SMS, который мы отправили на номер",
+  "loginAndRegistration": "Вход и регистрация",
+  "noAccountRegisterService": "Ещё нет аккаунта? Зарегистрируйте свой сервис —",
+  "phoneNumber": "Номер телефона",
+  "sendCodeAgain": "Отправить код ещё раз",
+  "sendCodeAgainInSeconds": "Отправить код ещё раз через 00:{seconds}",
+  "@sendCodeAgainInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "String",
+        "example": "59"
+      }
+    }
+  },
+  "smsCode": "Код из SMS",
+  "@actions": {},
+  "add": "Добавить",
+  "apply": "Применить",
+  "cancel": "Отмена",
+  "confirm": "Подтвердить",
+  "delete": "Удалить",
+  "done": "Готово",
+  "edit": "Редактировать",
+  "exit": "Выйти",
+  "hide": "Скрыть",
+  "reset": "Сбросить",
+  "retry": "Повторить",
+  "save": "Сохранить",
+  "search": "Поиск",
+  "select": "Выбрать",
+  "selectAll": "Выбрать все",
+  "unfold": "Раскрыть",
+  "@booking": {},
+  "addOnlineBooking": "Добавить онлайн-запись",
+  "addToQueue": "Добавить в очередь",
+  "allowCameraAccess": "Разрешите доступ к камере для продолжения",
+  "awaiting": "Ожидают",
+  "cashRegister": "Касса",
+  "continueBooking": "Продолжить запись",
+  "editBooking": "Редактировать заказ",
+  "history": "История",
+  "journal": "Журнал",
+  "liveQueue": "Живая очередь",
+  "onlineBooking": "Онлайн запись",
+  "onlineBookingCreated": "Онлайн-запись успешно создана",
+  "orderAddedToQueue": "Заказ успешно добавлен в очередь",
+  "orderSuccessfullyUpdated": "Заказ успешно обновлен",
+  "queueBooking": "Запись в очередь",
+  "scanSuccessful": "Сканирование кода\nпрошло успешно",
+  "scanned": "Отсканирован",
+  "selectDateTime": "Выбор даты и времени",
+  "selectedTime": "Выбранное время:",
+  "timeNotSelected": "время не выбрано",
+  "toSelectAnotherTime": "Чтобы выбрать другое время,",
+  "@cars": {},
+  "addCar": "Добавить авто",
+  "car": "Авто",
+  "carMakesAndModels": "Марки и модели авто",
+  "carServices": "Автосервисы",
+  "editCar": "Редактировать авто",
+  "enterLicensePlate": "Введите гос номер",
+  "generation": "Поколение",
+  "licensePlate": "Гос. номер",
+  "make": "Марка",
+  "model": "Модель",
+  "selectCarMakeAndModel": "Выберите марку и модель автомобиля",
+  "selectGeneration": "Выберите поколение",
+  "selectMake": "Выберите марку",
+  "selectModel": "Выберите модель",
+  "totalCars": "Автомобили: {totalCount}",
+  "@totalCars": {
+    "placeholders": {
+      "totalCount": {
+        "type": "int",
+        "example": "15"
+      }
+    }
+  },
+  "@clients": {},
+  "addClient": "Добавить клиента",
+  "client": "Клиент",
+  "clientFound": "Найденный клиент:",
+  "clientName": "Имя клиента",
+  "clients": "Клиенты",
+  "editClient": "Редактировать клиента",
+  "noClientsYet": "Клиентов еще нет",
+  "totalClients": "Клиентов: {totalObjects}",
+  "@totalClients": {
+    "placeholders": {
+      "totalObjects": {
+        "type": "int",
+        "example": "100"
+      }
+    }
+  },
+  "@companies": {},
+  "addCompany": "Добавить компанию",
+  "companyName": "Название компании",
+  "editCompany": "Редактировать компанию",
+  "enterCompanyName": "Введите наименование",
+  "legalCompanies": "Юридические компании",
+  "legalEntity": "Юридическое лицо",
+  "legalEntityShort": "Юр. лицо",
+  "@employees": {},
+  "addEmployee": "Добавить сотрудника",
+  "addAtLeastOneEmployee": "Для записи клиентов в журнал необходимо\nдобавить хотя бы одного сотрудника-мойщика.\nВы можете сделать это прямо сейчас.",
+  "admin": "Админ",
+  "administrator": "Администратор",
+  "any": "Любой",
+  "carWasher": "Автомойщик",
+  "carWashers": "Автомойщики",
+  "employee": "Сотрудник",
+  "employeeListEmpty": "Список сотрудников пуст",
+  "employeeName": "Имя сотрудника",
+  "employeePhoneNumber": "Номер телефона сотрудника",
+  "employeeRole": "Роль сотрудника",
+  "editEmployee": "Редактировать сотрудника",
+  "enterName": "Введите имя",
+  "enterPhoneNumber": "Введите номер телефона",
+  "phoneNumberNotChangeable": "Номер телефона нельзя изменить. Для смены номера удалите сотрудника и добавьте заново.",
+  "salaryRate": "Зарплатная ставка",
+  "selectEmployee": "Выберите сотрудника",
+  "selectPercentage": "Выберите процент",
+  "selectRole": "Выберите роль",
+  "staff": "Персонал",
+  "@errors": {},
+  "backToHome": "Вернуться на главную страницу",
+  "badRequest": "Неверный запрос, проверьте ваши данные и попробуйте снова",
+  "connectionTimeout": "Время ответа сервера истекло",
+  "error": "Ошибка",
+  "errorType": "Тип ошибки: {error}",
+  "@errorType": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "initializationFailed": "Ошибка инициализации",
+  "internalServerError": "Пожалуйста, попробуйте позже, произошла внутренняя ошибка",
+  "invalidRequestCheckData": "Неверный запрос, проверьте ваши данные и попробуйте снова",
+  "noAvailableData": "Нет доступных данных",
+  "noInternetConnection": "Нет подключения к интернету",
+  "notFound": "Данные не найдены",
+  "requestSuccess": "Запрос выполнен успешно",
+  "serverResponseTimeExpired": "Время ответа сервера истекло",
+  "serverUnavailableTryLater": "Попробуйте позже, сервер в настоящее время недоступен",
+  "somethingWentWrong": "Что-то пошло не так",
+  "tooManyRequests": "Слишком много запросов, пожалуйста, попробуйте позже",
+  "unauthorized": "Не авторизован",
+  "@forms": {},
+  "chooseTime": "Выбрать время",
+  "coordinates": "Координаты",
+  "coordinatesCannotBeEmpty": "Координаты не могут быть пустыми",
+  "fillRequiredFields": "Заполните обязательные поля",
+  "invalidFormat": "Неверный формат",
+  "requiredField": "Обязательное поле",
+  "saveChanges": "Сохранить изменения",
+  "@location": {},
+  "address": "Адрес",
+  "city": "Город",
+  "enterAddress": "Введите адрес",
+  "link2GIS": "Ссылка 2ГИС",
+  "location": "Местоположение",
+  "pointOnMap": "Точка на карте",
+  "selectCity": "Выберите город",
+  "specify2GISLink": "Укажите ссылку 2ГИС",
+  "specifyYandexMapsLink": "Укажите ссылку Яндекс карты",
+  "yandexMapsLink": "Ссылка Яндекс Карты",
+  "@payment": {},
+  "acceptPayment": "Принять оплату",
+  "acceptPaymentQr": "Принять оплату",
+  "addQr": "Добавить QR",
+  "addQrPayment": "Добавить QR-оплату",
+  "amount": "Сумма",
+  "bankName": "Наименование банка",
+  "bonusInfo": "{inputAmount} ₸ за ввод, {qrAmount} ₸ за запись с QR",
+  "@bonusInfo": {
+    "placeholders": {
+      "inputAmount": {
+        "type": "int",
+        "example": "200"
+      },
+      "qrAmount": {
+        "type": "int",
+        "example": "500"
+      }
+    }
+  },
+  "calculate": "Высчитать",
+  "calculator": "Калькулятор",
+  "cardNumber": "Номер карты",
+  "discount": "Скидка",
+  "discountPercentage": "Скидка: {discount}%",
+  "@discountPercentage": {
+    "placeholders": {
+      "discount": {
+        "type": "num",
+        "example": "10"
+      }
+    }
+  },
+  "editAmount": "Редактировать сумму",
+  "emptyHere": "Здесь пусто",
+  "enterAmountForWithdrawal": "Введите сумму для вывода средств",
+  "enterBankName": "Введите наименование",
+  "enterCardNumber": "Введите номер карты",
+  "enterCorrectCardDetails": "Введите корректные данные карты",
+  "expectReceiptWithin24Hours": "Ожидайте поступления в течение 24 часа",
+  "incomeCalculator": "Калькулятор дохода",
+  "insufficientFundsForWithdrawal": "Недостаточно средств для вывода",
+  "minWithdrawalAmount": "Минимальная сумма для вывода — {amount} ₸",
+  "@minWithdrawalAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "5000"
+      }
+    }
+  },
+  "minWithdrawalAmountIs": "Минимальная сумма вывода — {amount} ₸",
+  "@minWithdrawalAmountIs": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "5000"
+      }
+    }
+  },
+  "netIncome": "Чистый доход",
+  "noQrPayments": "QR оплата отсутствуют",
+  "operationPerformed": "Операция выполнена",
+  "otherExpenses": "Прочие расходы",
+  "paid": "Оплачен",
+  "paidStatus": "Оплачено",
+  "payment": "Оплата",
+  "paymentMethod": "Способ оплаты",
+  "promotionalPrice": "Акционная цена",
+  "qrPayment": "Оплата по QR",
+  "qrPaymentHeader": "Оплата по QR",
+  "qrPhoto": "Фотография QR",
+  "qrScanner": "QR - сканер",
+  "revenueFromInner": "Доход с внутренней",
+  "revenueFromOuter": "Доход с внешней",
+  "revenueFromQueue": "Доход с очереди",
+  "salary": "Зарплата",
+  "salaryExpenses": "Зарплатные расходы",
+  "selectPaymentMethod": "Выберите способ оплаты",
+  "sendRequest": "Отправить запрос",
+  "showToClientToAcceptPayment": "Покажите клиенту чтобы принять оплату",
+  "specifyAmountForWithdrawal": "Укажите сумму для вывода",
+  "total": "Итого",
+  "totalExpenses": "Общие расходы",
+  "totalRevenue": "Общий доход",
+  "withdrawFunds": "Вывести средства",
+  "withdrawalOfFunds": "Вывод средств",
+  "withdrawalRequest": "Запрос на вывод средств",
+  "withdrawalRequestSentForAmount": "Отправлен запрос на вывод средств в размере:",
+  "withdrawalRequestSentSuccessfully": "Запрос на вывод средств успешно отправлен",
+  "yourBalance": "Ваш баланс",
+  "@plurals": {},
+  "countCars": "{count, plural, one{{count} машина} few{{count} машины} many{{count} машин} other{{count} машин}}",
+  "@countCars": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "itemCount": "{count, plural, =1{{count} штука} few{{count} штуки} many{{count} штук} other{{count} штук}}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "liveQueueCars": "{liveQueueCount, plural, one{В живой очереди {liveQueueCount} машина} few{В живой очереди {liveQueueCount} машины} many{В живой очереди {liveQueueCount} машин} other{В живой очереди {liveQueueCount} машин}}",
+  "@liveQueueCars": {
+    "placeholders": {
+      "liveQueueCount": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "onlineBookingCars": "{onlineCount, plural, one{Онлайн записана {onlineCount} машина} few{Онлайн записаны {onlineCount} машины} many{Онлайн записано {onlineCount} машин} other{Онлайн записано {onlineCount} машин}}",
+  "@onlineBookingCars": {
+    "placeholders": {
+      "onlineCount": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "processCountCars": "{processCount, plural, one{В процессе {processCount} машина} few{В процессе {processCount} машины} many{В процессе {processCount} машин} other{В процессе {processCount} машин}}",
+  "@processCountCars": {
+    "placeholders": {
+      "processCount": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "selectedGenerations": "{selectedGenerationsLength, plural, one{Выбрано {selectedGenerationsLength} поколение} few{Выбрано {selectedGenerationsLength} поколения} many{Выбрано {selectedGenerationsLength} поколений} other{Выбрано {selectedGenerationsLength} поколения}}",
+  "@selectedGenerations": {
+    "placeholders": {
+      "selectedGenerationsLength": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "waitingLiveQueueCars": "{liveQueueCount, plural, one{Ожидает (очередь) {liveQueueCount} машина} few{Ожидают (очередь) {liveQueueCount} машины} many{Ожидают (очередь) {liveQueueCount} машин} other{Ожидают (очередь) {liveQueueCount} машин}}",
+  "@waitingLiveQueueCars": {
+    "placeholders": {
+      "liveQueueCount": {
+        "type": "int",
+        "example": "9"
+      }
+    }
+  },
+  "waitingOnlineBookingCars": "{onlineCount, plural, one{Ожидает (онлайн) {onlineCount} машина} few{Ожидают (онлайн) {onlineCount} машины} many{Ожидают (онлайн) {onlineCount} машин} other{Ожидают (онлайн) {onlineCount} машин}}",
+  "@waitingOnlineBookingCars": {
+    "placeholders": {
+      "onlineCount": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "@reports": {},
+  "carCount": "Кол-во машин",
+  "carWashersStatistics": "Статистика автомойщиков",
+  "downloadReport": "Скачать отчет",
+  "report": "Отчет",
+  "selectReportDate": "Выберите дату отчета",
+  "sendReport": "Отправить отчет",
+  "totalOrders": "Всего заказов",
+  "washingStatistics": "Статистика мойки",
+  "@services": {},
+  "addBody": "Добавить кузов",
+  "addService": "Добавить сервис",
+  "addServiceApplication": "Добавление сервиса",
+  "addServiceButton": "Добавить услугу",
+  "applicationSentForModeration": "Заявка отправлена на модерацию",
+  "available": "Доступно",
+  "carWash": "Автомойка",
+  "completed": "Завершен",
+  "created": "Новый",
+  "deleteSelected": "Удалить выбранные",
+  "description": "Описание:",
+  "draft": "Черновик",
+  "enterNameForService": "Введите название",
+  "enterServiceDescription": "Введите описание сервиса",
+  "enterServiceName": "Введите название сервиса",
+  "errorSendingApplicationForModeration": "Ошибка при отправлении заявки на модерацию",
+  "fillFormToSendApplication": "Заполните форму, чтобы отправить заявку на добавление автосервиса. Все заявки проходят проверку перед публикацией.",
+  "inProgress": "В процессе",
+  "mainPrice": "Основная цена",
+  "mainPriceDescription": "Основная цена - единая стоимость услуги для машин этого кузова. Для разных поколений и моделей можно установить отдельные цены.",
+  "noServicesForSelectedCar": "Нет доступных услуг для выбранного автомобиля",
+  "oilChangePoint": "Пункт замены масла",
+  "orderType": "Тип заказа",
+  "selectAtLeastOneService": "Выберите хотя бы одну услугу",
+  "selectBodies": "Выберите кузова",
+  "selectServices": "Выберите услуги",
+  "selectServiceType": "Выберите вид сервиса",
+  "selectServiceTypePrompt": "Выберите тип сервиса",
+  "selectType": "Выберите тип",
+  "sendForModeration": "Отправить на модерацию",
+  "separatePrice": "Отдельная цена",
+  "separatePriceDescription": "Отдельная цена - стоимость, установленная специально для выбранного поколения и модели автомобиля",
+  "service": "Услуга",
+  "serviceDescription": "Описание сервиса",
+  "serviceName": "Название сервиса",
+  "serviceOperationData": "Данные о работе сервиса",
+  "services": "Услуги",
+  "servicesShort": "Услуги:",
+  "serviceType": "Вид сервиса",
+  "offeringsAmount": "Сумма услуг",
+  "@settings": {},
+  "kazakh": "Қазақша",
+  "language": "Язык",
+  "russian": "Русский",
+  "settings": "Настройки",
+  "@status": {},
+  "currentlyWashing": "Моются сейчас",
+  "empty": "Пусто",
+  "loading": "Загрузка...",
+  "newUser": "Новый пользователь",
+  "no": "Нет",
+  "notPaid": "Не оплачен",
+  "notSelected": "Не выбран",
+  "notSpecified": "Не указаны",
+  "status": "Статус",
+  "successfully": "Успешно!",
+  "uniqueUser": "Уникальный юзер",
+  "unknown": "Неизвестный",
+  "yes": "Да",
+  "@time": {},
+  "closingTimeFormat": "Время закрытия должно быть в формате час:минута:секунда",
+  "day": "День",
+  "endTime": "Время завершения работы",
+  "evening": "Вечер",
+  "morning": "Утро",
+  "night": "Ночь",
+  "openingTimeBeforeClosingTime": "Время открытия должно быть раньше времени закрытия",
+  "openingTimeFormat": "Время открытия должно быть в формате час:минута:секунда",
+  "recordDate": "Дата записи",
+  "recordTime": "Время записи",
+  "roundTheClock": "Круглосуточно",
+  "selectEndTime": "Выберите время завершения работы",
+  "selectStartTime": "Выберите время начала работы",
+  "startTime": "Время начала работы",
+  "workSchedule": "График работы",
+  "@ui": {},
+  "comingSoon": "Скоро",
+  "confirmButton": "Подтвердить",
+  "filters": "Фильтры",
+  "name": "Имя",
+  "nothingFound": "Ничего не найдено",
+  "record": "Запись",
+  "@validation": {},
+  "enterAmount": "Введите сумму",
+  "numberOfBoxes": "Количество боксов",
+  "numberOfBoxesMustBeGreaterThanZero": "Количество боксов должно быть больше нуля",
+  "numberOfBoxesMustBeNumber": "Количество боксов должно быть числом",
+  "someFilesExceedMaxSize": "Некоторые файлы превышают максимальный размер 10 МБ",
+  "specifyNumberOfBoxes": "Укажите количество боксов",
+  "@washing": {},
+  "confirmCompleteWashing": "Вы уверены, что хотите завершить мойку?",
+  "confirmDeleteRecord": "Вы уверены, что хотите удалить эту запись?",
+  "confirmStartWashing": "Вы уверены, что хотите начать мойку?",
+  "completeWashing": "Завершить мойку",
+  "completeWashingPrompt": "Для завершения мойки необходимо сначала оплатить заказ",
+  "deleteRecord": "Удалить запись",
+  "orderAlreadyScanned": "Данный заказ уже просканирован",
+  "orderCannotBeScanned": "Данный заказ не может быть просканирован",
+  "orderInfo": "Информация о заказе",
+  "selectCarWasherPrompt": "Пожалуйста, выберите автомойщика перед тем, как начать заказ",
+  "startWashing": "Начать мойку",
+  "@workspace": {},
+  "addConveniences": "Добавить удобство",
+  "addPhotos": "Добавить фотографии",
+  "cashRegisterMenu": "Касса",
+  "conveniences": "Удобства",
+  "doNotAcceptOrders": "Не принимать заказы",
+  "mainInformation": "Основная информация",
+  "notifications": "Уведомления",
+  "notificationsMenu": "Уведомления",
+  "organization": "Организация",
+  "organizationMenu": "Организация",
+  "photos": "Фотографии",
+  "selectConveniences": "Выберите удобства",
+  "techSupport": "Тех поддержка",
+  "@account": {},
+  "call": "Позвонить",
+  "comment": "Комментарий:",
+  "deleteAccount": "Удалить аккаунт",
+  "deleteAccountConfirmation": "Вы уверены, что хотите отправить запрос на удаление своего аккаунта?",
+  "deleteAccountRequestSent": "Запрос на удаление аккаунта отправлен. Ожидайте подтверждения.",
+  "deleteAccountTitle": "Удаление аккаунта",
+  "logout": "Выйти",
+  "reply": "Ответ:",
+  "replyToReview": "Ответить на отзыв",
+  "replyToReviewAdded": "Ответ на отзыв добавлен",
+  "respond": "Ответить",
+  "reviews": "Отзывы",
+  "reviewsAndRatings": "Отзывы и рейтинги",
+  "thanksForReviewSeeYouAgain": "Спасибо за ваш отзыв! Будем рады видеть вас снова",
+  "writeOnWhatsApp": "Написать в WhatsApp",
+  "yourReplyShowsServiceLevel": "Ваш ответ поможет показать уровень сервиса и отношение к клиентам"
+}
