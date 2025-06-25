@@ -17,3 +17,5 @@ export 'src/models/models.dart';
 
 // Theme
 export 'src/theme/theme.dart';
+
+export 'package:app_core/src/settings/settings.dart';

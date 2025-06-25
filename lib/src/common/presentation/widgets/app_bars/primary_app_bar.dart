@@ -1,6 +1,6 @@
 import 'package:app_core/src/common/constants/app_colors.dart';
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/core/assets/generated/assets.gen.dart' as _assets;
+import 'package:app_core/src/assets/generated/assets.gen.dart' as _assets;
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

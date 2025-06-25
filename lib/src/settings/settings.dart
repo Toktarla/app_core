@@ -1,0 +1,9 @@
+export 'bloc/settings_bloc.dart';
+export 'core/data/locale/locale_datasource.dart';
+export 'core/data/locale/locale_repository.dart';
+export 'core/data/theme/theme_datasource.dart';
+export 'core/data/theme/theme_repository.dart';
+export 'core/domain/locale/locale_repository.dart';
+export 'core/domain/theme/theme_repository.dart';
+export 'presentation/settings_scope.dart';
+export 'presentation/widgets/select_language_bs.dart';

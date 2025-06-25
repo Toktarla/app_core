@@ -1,5 +1,5 @@
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/core/assets/generated/assets.gen.dart' as _assets;
+import 'package:app_core/src/assets/generated/assets.gen.dart' as _assets;
 import 'package:app_core/src/l10n/localization.dart' as _l10n;
 import 'package:flutter/material.dart';
 

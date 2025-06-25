@@ -1,6 +1,6 @@
 import 'package:app_core/src/common/presentation/widgets/buttons/app_icon_button.dart';
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/core/assets/generated/assets.gen.dart' as _assets;
+import 'package:app_core/src/assets/generated/assets.gen.dart' as _assets;
 import 'package:flutter/material.dart';
 
 class BackIconButton extends StatelessWidget {

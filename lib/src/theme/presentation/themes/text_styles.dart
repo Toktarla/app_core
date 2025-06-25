@@ -1,4 +1,4 @@
-import 'package:app_core/src/core/assets/generated/fonts.gen.dart';
+import 'package:app_core/src/assets/generated/fonts.gen.dart';
 import 'package:app_core/src/theme/presentation/theme_text_styles.dart';
 import 'package:flutter/material.dart';
 
