@@ -1,6 +1,5 @@
 import 'package:app_core/src/theme/domain/theme_colors.dart';
 import 'package:app_core/src/theme/domain/theme_text_styles.dart';
-import 'package:app_core/src/theme/presentation/themes/dark.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -17,9 +16,9 @@ extension MediaContextExtension on BuildContext {
 extension ThemeContextExtension on BuildContext {
   ThemeData get theme => Theme.of(this);
 
-  IColors get colors => theme.extension<IColors>() ?? DarkThemeData.colors;
+  IColors get colors => theme.extension<IColors>()!;
 
-  ITextStyles get textStyles => theme.extension<ITextStyles>() ?? DarkThemeData.textStyles;
+  ITextStyles get textStyles => theme.extension<ITextStyles>()!;
 
   bool get isDark => theme.brightness == Brightness.dark;
 

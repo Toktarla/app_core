@@ -1,13 +1,14 @@
+import 'package:app_core/app_core.dart';
 import 'package:app_core/src/theme/domain/theme_colors.dart';
 import 'package:app_core/src/theme/domain/theme_text_styles.dart';
 import 'package:flutter/material.dart';
 
 extension ThemeExtension on ThemeData {
   /// `colors` returns colors of the `BuildContext`.
-  IColors get colors => extension<IColors>()!;
+  IColors get colors => extension<IColors>() ?? DarkThemeData.colors;
 
   /// `textStyles` returns text styles of the `BuildContext`.
-  ITextStyles get textStyles => extension<ITextStyles>()!;
+  ITextStyles get textStyles => extension<ITextStyles>() ?? DarkThemeData.textStyles;
 }
 
 extension ThemeModeExtension on ThemeMode {
