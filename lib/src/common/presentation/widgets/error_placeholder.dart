@@ -1,6 +1,6 @@
 import 'package:app_core/src/common/constants/app_colors.dart';
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/l10n/localization.dart';
+import 'package:app_core/src/l10n/localization.dart' as _l10n;
 import 'package:flutter/material.dart';
 
 class ErrorPlaceholder extends StatelessWidget {
@@ -19,13 +19,13 @@ class ErrorPlaceholder extends StatelessWidget {
           ),
           const SizedBox(height: 10),
           Text(
-            L10n.current.error,
+            _l10n.L10n.current.error,
             style: context.textStyles.headlineSmall,
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 4),
           Text(
-            L10n.current.somethingWentWrong,
+            _l10n.L10n.current.somethingWentWrong,
             style: context.textStyles.bodyLarge3,
             textAlign: TextAlign.center,
           ),

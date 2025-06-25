@@ -1,6 +1,6 @@
 import 'package:app_core/src/common/constants/app_colors.dart';
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/core/assets/generated/assets.gen.dart';
+import 'package:app_core/src/core/assets/generated/assets.gen.dart' as _assets;
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -40,7 +40,7 @@ class PrimaryAppBar extends StatelessWidget implements PreferredSizeWidget {
                     border: Border.all(color: AppColors.strokeLight),
                   ),
                   child: SvgPicture.asset(
-                    Assets.icons.arrowLeft.path,
+                    _assets.Assets.icons.arrowLeft.path,
                     colorFilter: ColorFilter.mode(
                       context.theme.primaryColor,
                       BlendMode.srcIn,

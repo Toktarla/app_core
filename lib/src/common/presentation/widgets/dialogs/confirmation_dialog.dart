@@ -1,6 +1,6 @@
 import 'package:app_core/src/common/constants/app_colors.dart';
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/l10n/localization.dart';
+import 'package:app_core/src/l10n/localization.dart' as _l10n;
 import 'package:flutter/material.dart';
 
 class ConfirmationDialog extends StatelessWidget {
@@ -80,7 +80,7 @@ class ConfirmationDialog extends StatelessWidget {
                     Navigator.of(context).pop(false);
                   },
                   child: Text(
-                    cancelText ?? L10n.current.no,
+                    cancelText ?? _l10n.L10n.current.no,
                     style: context.textStyles.bodyLarge2.copyWith(
                       color: context.colors.primary,
                     ),
@@ -93,7 +93,7 @@ class ConfirmationDialog extends StatelessWidget {
                     Navigator.of(context).pop(true);
                   },
                   child: Text(
-                    confirmText ?? L10n.current.yes,
+                    confirmText ?? _l10n.L10n.current.yes,
                     style: context.textStyles.bodyLarge3.copyWith(
                       color: isDanger ? AppColors.red : context.colors.primary,
                     ),

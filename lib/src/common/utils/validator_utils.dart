@@ -1,4 +1,4 @@
-import 'package:app_core/src/l10n/localization.dart';
+import 'package:app_core/src/l10n/localization.dart' as _l10n;
 
 class ValidatorUtils {
   ValidatorUtils._();
@@ -64,8 +64,8 @@ class ValidatorUtils {
     return _platePatterns.any((pattern) => pattern.hasMatch(value));
   }
 
-  static String get _requiredFieldStr => L10n.current.requiredField;
-  static String get _notValidFormatStr => L10n.current.invalidFormat;
+  static String get _requiredFieldStr => _l10n.L10n.current.requiredField;
+  static String get _notValidFormatStr => _l10n.L10n.current.invalidFormat;
 
   static final List<RegExp> _platePatterns = [
     RegExp(r'^\d{3}[A-Z]{3}\d{2}$'), // 111AAA11 — обычные номера

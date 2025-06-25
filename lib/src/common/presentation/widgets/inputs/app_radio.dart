@@ -1,5 +1,5 @@
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/core/assets/generated/assets.gen.dart';
+import 'package:app_core/src/core/assets/generated/assets.gen.dart' as _assets;
 import 'package:flutter/material.dart';
 
 class AppRadio<T> extends StatefulWidget {
@@ -46,7 +46,7 @@ class _AppRadioState<T> extends State<AppRadio<T>> {
             width: 4,
           ),
         ),
-        child: selected ? Assets.icons.check.svg() : null,
+        child: selected ? _assets.Assets.icons.check.svg() : null,
       ),
     );
   }

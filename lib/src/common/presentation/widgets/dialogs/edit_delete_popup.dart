@@ -2,7 +2,8 @@
 
 import 'package:app_core/src/common/constants/app_colors.dart';
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/l10n/localization.dart';
+import 'package:app_core/src/common/utils/extensions/string_extension.dart';
+import 'package:app_core/src/l10n/localization.dart' as _l10n;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -52,7 +53,7 @@ class _EditOrDeletePopUpState extends State<EditOrDeletePopUp> {
                   widget.onTapEdit!();
                 },
                 child: Text(
-                  L10n.current.edit,
+                  _l10n.L10n.current.edit,
                   style: context.textStyles.bodyLarge1,
                 ),
               ),
@@ -67,7 +68,7 @@ class _EditOrDeletePopUpState extends State<EditOrDeletePopUp> {
                   widget.onTapDelete!();
                 },
                 child: Text(
-                  L10n.current.delete,
+                  _l10n.L10n.current.delete,
                   style: context.textStyles.bodyLarge1.copyWith(
                     color: AppColors.red,
                   ),
@@ -85,7 +86,7 @@ class _EditOrDeletePopUpState extends State<EditOrDeletePopUp> {
               Navigator.of(context).pop();
             },
             child: Text(
-              L10n.current.cancel,
+              _l10n.L10n.current.cancel,
               style: context.textStyles.bodyLarge4,
             ),
           ),
