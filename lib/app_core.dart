@@ -4,7 +4,7 @@ export 'src/bootstrap.dart';
 export 'src/common/common.dart';
 
 // Widgets (excluding those that use assets to prevent conflicts)
-// export 'src/common/presentation/widgets/widgets.dart';
+export 'src/common/presentation/widgets/widgets.dart';
 
 // Database
 export 'src/database/database.dart';
