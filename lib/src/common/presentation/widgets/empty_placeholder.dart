@@ -1,5 +1,5 @@
 import 'package:app_core/src/common/utils/extensions/context_extension.dart';
-import 'package:app_core/src/common/utils/asset_helper.dart';
+import 'package:app_core/src/core/assets/generated/assets.gen.dart' as _assets;
 import 'package:app_core/src/l10n/localization.dart' as _l10n;
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,7 @@ class EmptyPlaceholder extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          AssetHelper.emptySvg.svg(
+          _assets.Assets.icons.empty.svg(
             width: mini ? 48 : 64,
             height: mini ? 48 : 64,
             colorFilter: ColorFilter.mode(
